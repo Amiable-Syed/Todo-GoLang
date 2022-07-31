@@ -5,9 +5,13 @@ Apis include all the CRUD operations except put.
 
 ## Routes:
 /                 -> Home Page
+
 /todos            -> Get All the ToDos  (GET) 
+
 /todo/{id}        -> Get Single ToDo based on ID  (GET) 
+
 /todo/{id}        -> Delete Single ToDo based on ID  (DELETE) 
+
 /todo             -> Create new ToDo (POST)
 
 ### Sample Json for Post Call:
